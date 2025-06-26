@@ -1,0 +1,34 @@
+- name: Provisionamento e Deploy da API de Treinos na EC2
+  hosts: api_server
+  become: true
+
+  tasks:
+    - name: Atualizar pacotes APT
+      apt:
+        update_cache: yes
+
+    - name: Instalar Node.js e npm
+      apt:
+        name:
+          - nodejs
+          - npm
+        state: present
+
+    - name: Clonar o repositório da API do GitHub
+      git:
+        repo: https://github.com/andrielystarosky/trabalhofinal_cloud
+        dest: /home/ubuntu/api-treinos
+
+    - name: Instalar dependências da API
+      npm:
+        path: /home/ubuntu/api-treinos
+
+    - name: Instalar PM2 globalmente
+      npm:
+        name: pm2
+        global: yes
+
+    - name: Start da API com PM2
+      command: pm2 start index.js --name api-treinos
+      args:
+        chdir: /home/ubuntu/api-treinos
