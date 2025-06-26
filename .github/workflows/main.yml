@@ -6,7 +6,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -19,7 +18,11 @@ jobs:
           node-version: '18'
 
       - name: Instalar dependências
-        run: npm install
+        run: |
+          cd api-treinos
+          npm install
 
       - name: Executar testes unitários
-        run: npm test
+        run: |
+          cd api-treinos
+          npm test
