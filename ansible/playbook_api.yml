@@ -14,19 +14,20 @@
           - npm
         state: present
 
-    - name: Clonar o repositório da API do GitHub
-      git:
-        repo: https://github.com/andrielystarosky/trabalhofinal_cloud
-        dest: /home/ubuntu/trabalhofinal_cloud
-
-    - name: Instalar dependências da API
-      npm:
-        path: /home/ubuntu/trabalhofinal_cloud/api-treinos
-
     - name: Instalar PM2 globalmente
       npm:
         name: pm2
         global: yes
+
+    - name: Clonar o repositório da API do GitHub
+      git:
+        repo: https://github.com/andrielystarosky/trabalhofinal_cloud
+        dest: /home/ubuntu/trabalhofinal_cloud
+        update: yes
+
+    - name: Instalar dependências da API
+      npm:
+        path: /home/ubuntu/trabalhofinal_cloud/api-treinos
 
     - name: Start da API com PM2
       command: pm2 start index.js --name api-treinos
