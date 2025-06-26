@@ -1,0 +1,112 @@
+[
+  {
+    "id_programa": "TRN_FUNC_INI_01",
+    "titulo_programa": "Funcional para Iniciantes: Comece Hoje!",
+    "instrutor_principal": "Fernanda Souza",
+    "tipo_treino_foco": "Treinamento Funcional",
+    "nivel_dificuldade": "Iniciante",
+    "duracao_total_programa_semanas": 4,
+    "frequencia_semanal_sugerida_dias": 3,
+    "equipamento_necessario_basico": ["Colchonete", "Halteres Leves (opcional)"],
+    "video_apresentacao_url": "func_ini_intro.mp4"
+  },
+  {
+    "id_programa": "TRN_YOGA_RELAX_02",
+    "titulo_programa": "Yoga para Relaxamento e Alívio do Estresse",
+    "instrutor_principal": "Ravi Shankar",
+    "tipo_treino_foco": "Yoga / Meditação",
+    "nivel_dificuldade": "Todos os Níveis",
+    "duracao_total_programa_semanas": "Contínuo (aulas avulsas)",
+    "frequencia_semanal_sugerida_dias": "Flexível",
+    "equipamento_necessario_basico": ["Tapete de Yoga"],
+    "video_apresentacao_url": "yoga_relax_intro.mp4"
+  },
+  {
+    "id_programa": "TRN_HIT_ADV_03",
+    "titulo_programa": "HIIT Avançado: Queime Gordura Rápido",
+    "instrutor_principal": "Carlos Mendes",
+    "tipo_treino_foco": "Treinamento de Alta Intensidade",
+    "nivel_dificuldade": "Avançado",
+    "duracao_total_programa_semanas": 6,
+    "frequencia_semanal_sugerida_dias": 5,
+    "equipamento_necessario_basico": ["Tênis Adequado", "Garrafa de Água"],
+    "video_apresentacao_url": "hiit_avancado_intro.mp4"
+  },
+  {
+    "id_programa": "TRN_PILATES_INT_04",
+    "titulo_programa": "Pilates para Intermediários: Força e Flexibilidade",
+    "instrutor_principal": "Mariana Oliveira",
+    "tipo_treino_foco": "Pilates",
+    "nivel_dificuldade": "Intermediário",
+    "duracao_total_programa_semanas": 8,
+    "frequencia_semanal_sugerida_dias": 3,
+    "equipamento_necessario_basico": ["Tapete", "Faixa Elástica"],
+    "video_apresentacao_url": "pilates_intermediario_intro.mp4"
+  },
+  {
+    "id_programa": "TRN_MUSC_HOME_05",
+    "titulo_programa": "Musculação em Casa: Corpo Saudável sem Academia",
+    "instrutor_principal": "Ricardo Silva",
+    "tipo_treino_foco": "Musculação",
+    "nivel_dificuldade": "Todos os Níveis",
+    "duracao_total_programa_semanas": 10,
+    "frequencia_semanal_sugerida_dias": 4,
+    "equipamento_necessario_basico": ["Halteres", "Banco ou Cadeira"],
+    "video_apresentacao_url": "musculacao_casa_intro.mp4"
+  },
+  {
+    "id_programa": "TRN_CARDIO_BAS_06",
+    "titulo_programa": "Cardio Básico: Melhore seu Fôlego",
+    "instrutor_principal": "Ana Paula Costa",
+    "tipo_treino_foco": "Cardio",
+    "nivel_dificuldade": "Iniciante",
+    "duracao_total_programa_semanas": 4,
+    "frequencia_semanal_sugerida_dias": 3,
+    "equipamento_necessario_basico": ["Tênis Esportivo"],
+    "video_apresentacao_url": "cardio_basico_intro.mp4"
+  },
+  {
+    "id_programa": "TRN_CROSS_INT_07",
+    "titulo_programa": "Cross Training Intermediário: Ganhe Resistência",
+    "instrutor_principal": "Lucas Pereira",
+    "tipo_treino_foco": "Cross Training",
+    "nivel_dificuldade": "Intermediário",
+    "duracao_total_programa_semanas": 6,
+    "frequencia_semanal_sugerida_dias": 4,
+    "equipamento_necessario_basico": ["Caixa Plyo", "Kettlebell"],
+    "video_apresentacao_url": "cross_intermediario_intro.mp4"
+  },
+  {
+    "id_programa": "TRN_MOBILITY_08",
+    "titulo_programa": "Mobilidade e Alongamento Diário",
+    "instrutor_principal": "Juliana Ferreira",
+    "tipo_treino_foco": "Alongamento e Mobilidade",
+    "nivel_dificuldade": "Todos os Níveis",
+    "duracao_total_programa_semanas": "Contínuo",
+    "frequencia_semanal_sugerida_dias": "Diário",
+    "equipamento_necessario_basico": ["Espaço Livre"],
+    "video_apresentacao_url": "mobilidade_diaria_intro.mp4"
+  },
+  {
+    "id_programa": "TRN_BOXE_BAS_09",
+    "titulo_programa": "Boxe Fitness para Iniciantes",
+    "instrutor_principal": "Thiago Lima",
+    "tipo_treino_foco": "Boxe Fitness",
+    "nivel_dificuldade": "Iniciante",
+    "duracao_total_programa_semanas": 5,
+    "frequencia_semanal_sugerida_dias": 3,
+    "equipamento_necessario_basico": ["Luvas de Boxe", "Corda de Pular"],
+    "video_apresentacao_url": "boxe_fitness_intro.mp4"
+  },
+  {
+    "id_programa": "TRN_DANCA_10",
+    "titulo_programa": "Dance Fit: Mexa-se ao Som da Música",
+    "instrutor_principal": "Camila Andrade",
+    "tipo_treino_foco": "Dança Fitness",
+    "nivel_dificuldade": "Todos os Níveis",
+    "duracao_total_programa_semanas": "Contínuo",
+    "frequencia_semanal_sugerida_dias": "Flexível",
+    "equipamento_necessario_basico": ["Tênis Confortável"],
+    "video_apresentacao_url": "dance_fit_intro.mp4"
+  }
+]
