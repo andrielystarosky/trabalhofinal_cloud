@@ -17,7 +17,7 @@
     - name: Clonar o repositório da API do GitHub
       git:
         repo: https://github.com/andrielystarosky/trabalhofinal_cloud
-        dest: /home/ubuntu/api-treinos
+        dest: /home/ubuntu/trabalhofinal_cloud
 
     - name: Instalar dependências da API
       npm:
