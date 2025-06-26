@@ -21,7 +21,7 @@
 
     - name: Instalar dependências da API
       npm:
-        path: /home/ubuntu/api-treinos/api-treinos
+        path: /home/ubuntu/trabalhofinal_cloud/api-treinos
 
     - name: Instalar PM2 globalmente
       npm:
@@ -31,4 +31,4 @@
     - name: Start da API com PM2
       command: pm2 start index.js --name api-treinos
       args:
-        chdir: /home/ubuntu/api-treinos/api-treinos
+        chdir: /home/ubuntu/trabalhofinal_cloud/api-treinos
