@@ -58,3 +58,24 @@ resource "aws_instance" "api_instance" {
     Name = "API-Treinos-Instance"
   }
 }
+
+# Internet Gateway
+resource "aws_internet_gateway" "api_igw" {
+  vpc_id = aws_vpc.api_vpc.id
+}
+
+# Tabela de Rotas com saída para a Internet
+resource "aws_route_table" "api_route_table" {
+  vpc_id = aws_vpc.api_vpc.id
+
+  route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_internet_gateway.api_igw.id
+  }
+}
+
+# Associação da tabela de rotas com a subnet pública
+resource "aws_route_table_association" "api_subnet_association" {
+  subnet_id      = aws_subnet.api_subnet.id
+  route_table_id = aws_route_table.api_route_table.id
+}
